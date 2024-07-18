@@ -1,0 +1,9 @@
+.top-btn{
+    position: fixed;
+    top: 92%;
+    background-color: hsl(210 98% 55%);
+    right: 10px;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    color: #fff;
+}

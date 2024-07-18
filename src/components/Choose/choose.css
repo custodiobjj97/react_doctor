@@ -1,0 +1,35 @@
+.choose{
+    padding: 120px 12px;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.choose-text h2,p,.list-choose{
+  margin-bottom: 1.8rem;
+  
+}
+
+.choose-text h2{
+    font-size: 2.66rem;
+}
+
+.list-choose{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.list-choose li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+@media (min-width:1042px){
+    .choose{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
